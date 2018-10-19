@@ -50,29 +50,9 @@ On Windows there are several options for a C++ development environment. An easy 
 
 [Download Visual Studio 2017 Community](https://visualstudio.microsoft.com/vs/community/)
 
-Make sure to select "Desktop Development with C++" when installing the package
+Make sure to select "Desktop Development with C++" when installing the package.
 
-To build a C++ program in Visual Studio:
-
- 1. Start The Visual Studio development environment
- 2. Select **File/New Project...** from the menu.
- 3. In the category "Visual C++" select "Windows Console Application"
- 4. Give your application a name.
- 5. Click **OK**
-
-In the opened file replace the code with:
-
-    #include <iostream>
-
-    using namespace std;
-
-    int main()
-    {
-        cout << "Hello, C++" << endl;
-        return 0;
-    }
-
-To build and run the application click **Debug/Start without debugger**
+We will use the Qt Creator as the development environment, with the Microsoft Compilers.
 
 ## Qt Creator
 
@@ -95,6 +75,10 @@ To build a C++ program in Qt Creator:
 This will create a template C++ application.
 
 Build and run the application by selecting **Build/Run**. Output from the application will be shown in the lower part of the window.
+
+## Windows Subsystem for Linux
+
+In Windows there is also an option of using a Linux based development environment without any virtual machines. To use this install the "Ubuntu 18.04 LTS" App from the Windows App Store. This will add a command line based Linux environment. Follow the instructions for Linux on how to install software.
 
 # Max OS X
 
