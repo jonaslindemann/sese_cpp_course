@@ -82,7 +82,7 @@ In Windows there is also an option of using a Linux based development environmen
 
 # Max OS X
 
-To use C++ under Mac OS X you need to install Xcode, which is found in the Mac OS X app store. 
+To use C++ under Mac OS X you need to install Xcode, which is found in the Mac OS X app store.
 
 ## Qt Creator
 
