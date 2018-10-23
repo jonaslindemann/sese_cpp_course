@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo Loading modules ...
+ml load foss/2018a
+ml load Qt5/5.10.1
+ml load Eigen/3.3.5
+ml load CMake
+ml load qtcreator
+ml load Armadillo
+echo Setting up C++ compiler
+export CC=`which gcc`
+export CXX=`which g++`
